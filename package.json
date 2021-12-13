@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run ping && npm run cache && npm run hospitals && npm run stats && npm run news && npm run hoaxes && npm run indexer",
+    "build": "npm run ping && npm run cache && npm run stats && npm run indexer",
     "ping": "node src/ping.js",
     "cache": "node src/cache.js",
     "hospitals": "node src/hospitals.js",
